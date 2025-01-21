@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(245, 245, 245);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+
+}
+nav h3{
+    font-size: 31px;
+    font-weight: 700;
+    color: #0E0E0E;
+    word-wrap: break-word;
+}
+nav .btn-1{
+    color: #006A50;
+    border: 1px solid #006A50;
+    padding: 28px;
+    font-size: 17px;
+    font-weight: 600;
+    word-wrap: break-word;
+    padding: 14px 29px;
+    border-radius: 8px;
+}
+nav .btn-1:hover{
+    background-color: #006a50c3;
+    color: tomato;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+    margin: 0px 150px;
+    background-color: #C6E4D6;
+    gap: 61px;
+    padding: 76px 96px;
+    border-radius: 23px;
+    
+}
+.banner .banner-cont{
+    height: 320px;
+    width: 50%;
+
+}
+.banner .banner-cont h3{
+   
+    color: rgba(13.81, 13.81, 13.81, 0.50);
+    font-size: 24px;
+    font-family: Fira Sans;
+    font-weight: 500;
+    word-wrap: break-word
+}
+.banner .banner-cont .banner-cont-p{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+}
+.banner .banner-cont .banner-bnt{
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 50px;
+
+}
+.banner .banner-cont .banner-bnt:hover{
+    background-color: red;
+}
+.banner .banner-img{
+    height: 25rem;
+    width: 50%;
+}
+
+.frame-1{
+    height: 310px;
+    width: 1229px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+} 
+.frame-1 .fhead{
+    margin: 35px 155px;
+    color: black;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.frame-1-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 23px;
+    margin: 0px 150px; 
+    width: 100%;  
+}
+.frame-1-cont .frame-1-box{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px 24px 24px 24px;
+    height: 200px;
+    width: 302px;
+    border-radius: 16px;
+    text-align: start;
+    background-color: rgb(255, 255, 255); 
+}
+.frame-1-cont .frame-1-box img{
+    margin-top: 10px;
+    height: 53px;
+    width: 49px;
+}
+.frame-1-cont .frame-1-box .p-1{
+    color:  rgba(14, 14, 14, 0.8);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    word-wrap: break-word;
+    padding: 12px 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.frame-1-cont .frame-1-box .p-2{
+    color:  rgba(14, 14, 14, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    word-wrap: break-word;
+    text-align: justify;
+    
+}
+.vision{
+    height: 734px;
+    width: 1229px;
+    margin: 80px 150px;
+ 
+
+}
+
+.vision .vision-cont h2{
+    color: black;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: left;
+}
+.vision .vision-cont p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin: 24px 0px;
+    
+}
+.vision-box-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+}
+.vision-box-cont .vision-box{
+    border-radius: 16px ;
+    height: 300px;
+    padding: 32px 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.vision-box-cont .vision-box .p1{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    margin: 15px 0px;
+}
+.vision-box-cont .vision-box .p2{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+}
+.color-b{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.color-g{
+    background-color: rgb(198, 228, 214);
+}
+.color-y{
+    background-color: rgb(247, 235, 207);   
+}
+.vision-box-cont .vision-box .vision-btn-1{
+    
+    width: 117px;
+    height: 39px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(84, 144, 245);
+    border: none;
+    margin-top: 25px;
+
+}
+.vision-box-cont .vision-box .vision-btn-2{
+    width: 117px;
+    height: 39px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(9, 161, 92);
+    border: none;
+    margin-top: 25px;
+
+}
+.vision-box-cont .vision-box .vision-btn-3{
+    width: 117px;
+    height: 39px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(255, 194, 57);
+    border: none;
+    margin-top: 25px;
+}
+.vision-box-cont .vision-box .vision-btn-3:hover{
+    background-color: #053c2e94;
+}
+.vision-box-cont .vision-box .vision-btn-2:hover{
+    background-color: #053c2e94;
+}
+.vision-box-cont .vision-box .vision-btn-1:hover{
+    background-color: #053c2e94;
+}
+.vision .vision-cont-2{
+    background-image: url("./assets/quote-bg.png");
+    background-repeat: no-repeat;
+    padding: 32px 20px;
+    background-position-x: 20px;
+    margin: 40px 0px;
+}
+.vision .vision-cont-2 .vision-cont-p1{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.vision .vision-cont-2 .vision-cont-p2{
+    font-size: 19px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 10px;
+}
+.vision .vision-cont-2 .vision-cont-p3{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
+}
+.news{
+    height: 1406px;
+    width: 1229px;
+    margin: 80px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.news .reverse{
+    flex-direction: row-reverse;
+}
+.news .news-title{
+    color: rgb(14, 14, 14);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    
+}
+.news .news-p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+}
+.news .news-box{
+    display: flex;
+    padding: 48px 48px;
+    gap: 32px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+.news .news-box .satalite{
+    border-radius: 24px;
+}
+.news .news-box .al-jaz{
+    width: 134px;
+    height: 40px;
+    margin: 10px 0px;
+}
+.news .news-box h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 31px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 10px;
+}
+.news .news-box p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 15px 0px;
+}
+.news .news-box .news-btn{
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+}
+.news .news-box .news-btn:hover{
+    background-color: red;
+}
+.news .news-box .news-box-cont .datetime{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+.donate{
+    display: flex;
+    flex-direction: column;
+    height: 464px;
+    width: 1229px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 150px;
+    gap: 32px;
+}
+.donate h2{
+   font-weight: 700;
+   font-size: 38px;
+   color: rgba(14, 14, 14, 0.7);
+
+}
+.donate p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-family: Fira Sans;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.donate .donate-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    height: 128px;
+    width: 1028px;
+}
+.donate .donate-cont .donate-card{
+    background-color: rgb(255, 255, 255);
+    padding: 40px 40px;
+    border-radius: 16px;
+    width: 100%;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 37px;
+    font-weight: 700;
+}
+.donate .donate-cont .donate-card:hover{
+    background-color: rgb(198, 228, 214);
+}
+.donate .donate-cont .green{
+    background-color: rgb(198, 228, 214);
+}
+.donate #donate-form{
+    height: 64px;
+    width: 991px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate #donate-form #text{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    text-align: center;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 19px;
+    font-weight: 400;
+}
+.donate #donate-btn{
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    border: none;
+    padding: 17px 34px;
+    margin-bottom: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+}
+.donate #donate-btn:hover{
+    background-color: red;
+}
+.Subscribe{
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    margin: 0px 150px;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    margin-bottom: 80px;
+}
+.Subscribe #Subscribe-cont h2{
+    color: rgb(14, 14, 14);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.Subscribe #Subscribe-cont p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+.Subscribe #Subscribe-form form{
+    display: flex;
+    gap: 0px;
+    height: 55px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Subscribe #Subscribe-form form #email{
+    height: 55px;
+    width: 600px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.Subscribe #Subscribe-form form #submit{
+    height: 56px;
+    width: 150px;
+    padding: 17px 34px 17px 34px;
+    margin: 0px 0px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.Subscribe #Subscribe-form form #submit:hover{
+    background-color: red;
+}
+.Subscribe p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
